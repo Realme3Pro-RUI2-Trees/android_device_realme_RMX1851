@@ -331,6 +331,11 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Pixel Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/unified_script.sh:install/bin/unified_script.sh
