@@ -13,6 +13,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from RMX1851 device
 $(call inherit-product, device/realme/RMX1851/device.mk)
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := aosp_RMX1851
 PRODUCT_DEVICE := RMX1851
