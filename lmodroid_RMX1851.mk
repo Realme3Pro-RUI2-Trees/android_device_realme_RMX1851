@@ -8,15 +8,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common lmodroid stuff.
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Inherit from RMX1851 device
 $(call inherit-product, device/realme/RMX1851/device.mk)
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_RMX1851
+PRODUCT_NAME := lmodroid_RMX1851
 PRODUCT_DEVICE := RMX1851
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_BRAND := realme

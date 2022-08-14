@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1851.mk
+    $(LOCAL_DIR)/lmodroid_RMX1851.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX1851-user \
-    aosp_RMX1851-userdebug \
-    aosp_RMX1851-eng
+    lmodroid_RMX1851-user \
+    lmodroid_RMX1851-userdebug \
+    lmodroid_RMX1851-eng
