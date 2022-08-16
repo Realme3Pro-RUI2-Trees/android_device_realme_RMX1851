@@ -186,7 +186,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.nicky
+    android.hardware.biometrics.fingerprint@2.3-service.RMX1851
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -250,11 +250,11 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.nicky
+    android.hardware.light-service.RMX1851
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.nicky
+    vendor.lineage.livedisplay@2.1-service.RMX1851
 
 # Media
 PRODUCT_PACKAGES += \
@@ -348,7 +348,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal.nicky \
+    android.hardware.sensors@2.0-service.multihal.RMX1851 \
     libsensorndkbridge \
     RealmeProximityHelper
 
@@ -427,4 +427,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/oplus/nicky/nicky-vendor.mk)
+$(call inherit-product, vendor/realme/RMX1851/RMX1851-vendor.mk)

@@ -16,7 +16,7 @@
 
 #define LOG_TAG "AntiFlickerService"
 
-#include <livedisplay/nicky/AntiFlicker.h>
+#include <livedisplay/RMX1851/AntiFlicker.h>
 #include <android-base/logging.h>
 #include <fstream>
 

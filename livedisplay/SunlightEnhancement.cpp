@@ -16,7 +16,7 @@
 
 #define LOG_TAG "SunlightEnhancementService"
 
-#include <livedisplay/nicky/SunlightEnhancement.h>
+#include <livedisplay/RMX1851/SunlightEnhancement.h>
 #include <android-base/logging.h>
 #include <fstream>
 

@@ -13,32 +13,32 @@
 // limitations under the License.
 
 filegroup {
-    name: "vendor.lineage.livedisplay@2.1-nicky-af",
+    name: "vendor.lineage.livedisplay@2.1-RMX1851-af",
     srcs: ["AntiFlicker.cpp"],
 }
 
 filegroup {
-    name: "vendor.lineage.livedisplay@2.1-nicky-se",
+    name: "vendor.lineage.livedisplay@2.1-RMX1851-se",
     srcs: ["SunlightEnhancement.cpp"],
 }
 
 cc_library_headers {
-    name: "vendor.lineage.livedisplay@2.1-nicky-headers",
+    name: "vendor.lineage.livedisplay@2.1-RMX1851-headers",
     vendor_available: true,
     export_include_dirs: ["include"],
 }
 
 cc_binary {
-    name: "vendor.lineage.livedisplay@2.1-service.nicky",
+    name: "vendor.lineage.livedisplay@2.1-service.RMX1851",
     defaults: ["hidl_defaults"],
-    init_rc: ["vendor.lineage.livedisplay@2.1-service.nicky.rc"],
-    vintf_fragments: ["vendor.lineage.livedisplay@2.1-service.nicky.xml"],
+    init_rc: ["vendor.lineage.livedisplay@2.1-service.RMX1851.rc"],
+    vintf_fragments: ["vendor.lineage.livedisplay@2.1-service.RMX1851.xml"],
     relative_install_path: "hw",
     srcs: [
         ":vendor.lineage.livedisplay@2.0-sdm-pa",
         ":vendor.lineage.livedisplay@2.0-sdm-utils",
-        ":vendor.lineage.livedisplay@2.1-nicky-af",
-        ":vendor.lineage.livedisplay@2.1-nicky-se",
+        ":vendor.lineage.livedisplay@2.1-RMX1851-af",
+        ":vendor.lineage.livedisplay@2.1-RMX1851-se",
         "service.cpp",
     ],
     shared_libs: [
@@ -51,7 +51,7 @@ cc_binary {
     ],
     header_libs: [
         "vendor.lineage.livedisplay@2.0-sdm-headers",
-        "vendor.lineage.livedisplay@2.1-nicky-headers",
+        "vendor.lineage.livedisplay@2.1-RMX1851-headers",
     ],
     proprietary: true,
 }

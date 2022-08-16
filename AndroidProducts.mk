@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_nicky.mk
+    $(LOCAL_DIR)/aosp_RMX1851.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_nicky-user \
-    aosp_nicky-userdebug \
-    aosp_nicky-eng
+    aosp_RMX1851-user \
+    aosp_RMX1851-userdebug \
+    aosp_RMX1851-eng
